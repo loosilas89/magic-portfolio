@@ -8,7 +8,7 @@ const person: Person = {
   role: "Design Engineer",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  location: "Asia/Singapore", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
   languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
 };
 
@@ -76,7 +76,7 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Silas, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    A designer have to become a product person in this AI world
 </>
   ),
 };
@@ -102,7 +102,7 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Silas is a Jakarta-based design engineer with a passion for transforming complex challenges
+        Silas is a Singapore-based design engineer with a passion for transforming complex challenges
         into simple, elegant design solutions. Her work spans digital interfaces, interactive
         experiences, and the convergence of design and technology.
       </>
