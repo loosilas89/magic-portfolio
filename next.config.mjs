@@ -7,8 +7,10 @@ const withMDX = mdx({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: "export",
   pageExtensions: ["ts", "tsx", "md", "mdx"],
   transpilePackages: ["next-mdx-remote"],
+  basePath: "/magic-portfolio",
   images: {
     remotePatterns: [
       {
@@ -17,6 +19,7 @@ const nextConfig = {
         pathname: "**",
       },
     ],
+    unoptimized: true,
   },
   sassOptions: {
     compiler: "modern",
